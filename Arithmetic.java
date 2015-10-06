@@ -5,6 +5,7 @@ public class Arithmetic {
     int b = 10;
     printf("%d + %d = %d\n", a, b, add(a,b));
     printf("%d * %d = %d\n", a, b, multiply(a,b));
+    printf("%d - %d = %d\n", a, b, subtract(a,b));
   }
 
   public static int add(int a, int b) {
@@ -13,6 +14,10 @@ public class Arithmetic {
 
   public static int multiply(int a, int b) {
     return a * b;
+  }
+
+  public static int subtract(int a, int b) {
+    return a - b;
   }
 
 }
