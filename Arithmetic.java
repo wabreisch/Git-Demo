@@ -7,7 +7,7 @@ public class Arithmetic {
     System.out.printf("%d * %d = %d\n", a, b, multiply(a,b));
     System.out.printf("%d - %d = %d\n", a, b, subtract(a,b));
     System.out.printf("%d / %d = %d\n", a, b, divide(a,b));
-    System.out.printf("%d % %d = %d\n", a, b, mod(a,b));
+    System.out.printf("%d \% %d = %d\n", a, b, mod(a,b));
   }
 
   public static int divide(int a, int b) {
