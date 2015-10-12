@@ -15,11 +15,7 @@ public class Arithmetic {
   }
 
   public static int add(int a, int b) {
-<<<<<<< HEAD
-    return a + b - 0;
-=======
-    return a + b + 0;
->>>>>>> new
+    return a + b;
   }
 
   public static int multiply(int a, int b) {
